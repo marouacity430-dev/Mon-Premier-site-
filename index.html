@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doudou Valawa - Le Meilleur Bil-Bil du Pont Vert</title>
+    <style>
+        :root {
+            --orange: #FF6600;
+            --black: #1a1a1a;
+            --white: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: var(--black);
+            color: white;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--orange);
+        }
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://source.unsplash.com/random/1920x1080/?african-woman-cooking') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero-content p {
+            font-size: 1.4rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        .btn {
+            background: var(--orange);
+            color: white;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        section {
+            padding: 80px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: var(--black);
+        }
+        .about {
+            background: #fffaf0;
+        }
+        .story {
+            background: var(--black);
+            color: white;
+        }
+        .testimonials {
+            background: #fffaf0;
+        }
+        .testimonial {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .contact {
+            background: var(--orange);
+            color: white;
+            text-align: center;
+        }
+        footer {
+            background: var(--black);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="logo">DOUDOU VALAWA</div>
+            <div>
+                <a href="#histoire" style="color:white; margin:0 15px; text-decoration:none;">Notre Histoire</a>
+                <a href="#avis" style="color:white; margin:0 15px; text-decoration:none;">Avis Clients</a>
+                <a href="#contact" style="color:white; margin:0 15px; text-decoration:none;">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Doudou Valawa</h1>
+            <p>Le meilleur Bil-Bil traditionnel du Pont Vert<br>
+            <strong>Plus de 25 ans d'expérience • Plus de 1000 calebasses servies par mois</strong></p>
+            <a href="#contact" class="btn">Commander maintenant</a>
+        </div>
+    </section>
+
+    <!-- HISTOIRE -->
+    <section id="histoire" class="story">
+        <div class="container">
+            <h2 style="color: var(--orange);">L’histoire de Doudou Valawa</h2>
+            <p style="max-width:900px; margin:0 auto 40px; font-size:1.1rem;">
+                <strong>La sacrifiée de la famille</strong><br><br>
+                Dans la maison de son père, elle était le moteur invisible. Pendant que ses frères allaient à l’école, elle portait déjà le poids du monde...<br><br>
+                À 17 ans, elle tombe enceinte et se retrouve chassée, seule avec ses enfants. L’homme disparaît. Mais une lionne n’abandonne jamais.
+            </p>
+            <p style="max-width:900px; margin:0 auto 40px; font-size:1.1rem;">
+                <strong>L’école du feu au Pont Vert</strong><br><br>
+                Elle arrive au Pont Vert, ramasse le bois, lave les calebasses sales. On l’insulte, on l’appelle « l’étrangère ». Elle observe, elle apprend, elle persévère.<br>
+                Chaque soir, elle répétait : <strong>S.O.S.</strong> → Souffrance • Objectif • Succès.
+            </p>
+            <p style="max-width:900px; margin:0 auto; font-size:1.2rem; text-align:center; font-style:italic;">
+                Aujourd’hui, ceux qui se moquaient font la queue devant sa porte.<br>
+                <strong>« La vie donne des coups, son Bil-Bil donne de la force. »</strong>
+            </p>
+            <p style="text-align:center; margin-top:40px; font-size:1.3rem; color:var(--orange);">
+                <strong>DOUDOU VALAWA</strong><br>
+                Le goût du sacrifice et de la détermination.
+            </p>
+        </div>
+    </section>
+
+    <!-- AVIS CLIENTS -->
+    <section id="avis" class="testimonials">
+        <div class="container">
+            <h2>Ils ont goûté, ils témoignent</h2>
+            
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:20px;">
+                <div class="testimonial">
+                    <p>« Le meilleur bil-bil que j’ai bu de ma vie ! On sent l’amour et la tradition dans chaque gorgée. »</p>
+                    <strong>— Aïcha Bello, Maroua</strong>
+                </div>
+                <div class="testimonial">
+                    <p>« Doudou Valawa c’est plus qu’une boisson, c’est une histoire de résilience. Bravo maman ! »</p>
+                    <strong>— Moussa Hamadou, Pont Vert</strong>
+                </div>
+                <div class="testimonial">
+                    <p>« Je viens chaque semaine. Le goût est toujours parfait et constant depuis des années. »</p>
+                    <strong>— Fatoumatou Abakar</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <p style="font-size:1.4rem; margin:20px 0;">
+                📍 Quartier Pont Vert - Extrême-Nord, Cameroun<br><br>
+                📞 <strong>698 150 360</strong><br>
+                ✉️ doudouvalawa@gmail.com
+            </p>
+            <a href="tel:698150360" class="btn" style="background:white; color:var(--orange); font-size:1.3rem;">
+                Appeler maintenant
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Doudou Valawa - Le Bil-Bil de la résilience</p>
+        <p>Plus de 25 ans de tradition et d’excellence</p>
+    </footer>
+
+</body>
+</html>
