@@ -10,7 +10,22 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   line-height: 1.6;
   color: #333;
-}
+  
+    /* On applique l'image à tout le corps de la page */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('1768579313266.jpg');
+    
+    /* Pour que l'image couvre tout l'écran sans se répéter */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* L'image reste fixe quand on scroll */
+    background-repeat: no-repeat;
+    
+    /* On s'assure que le texte par défaut est blanc pour être lisible */
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
 
 header {
   background: var(--black);
