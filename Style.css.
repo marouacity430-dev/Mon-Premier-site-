@@ -1,0 +1,22 @@
+:root {
+  --orange: #FF6600;
+  --black: #1a1a1a;
+  --white: #ffffff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: var(--black);
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  padding: 1rem 0;
+}
